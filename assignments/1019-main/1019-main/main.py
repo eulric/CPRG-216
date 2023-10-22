@@ -6,7 +6,7 @@ POS = random.randint(1, len(charList))
 
 
 def cipher(line):
-    """offset a character of a line based on its position"""
+    """offset a character of a line based on its position in the charList"""
     out = ""
 
     for char in line:
@@ -20,7 +20,7 @@ def cipher(line):
 
 
 if __name__ == "__main__":
-    file_name = input("input new filename:") + ".txt"
+    file_name = "CPNT-216"
 
     with open(file_name, "a") as new_file:
         with open("sample.ini", "r") as file:
