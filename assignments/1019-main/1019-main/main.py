@@ -1,3 +1,8 @@
+"""
+Unit 5 - Lab 2
+Personal repo on GitHub
+"""
+
 import string
 import random
 
